@@ -1,3 +1,3 @@
 # Hello everyone!
 
-I would like to travel to Tuscany.
+My name is Kaeden Tun. Welcome to my website! 🍕
