@@ -1,9 +1,8 @@
+<html>
+<body>
 
-<div class="w3-right w3-hide-small">
-<a href="#Home" class="index.html">Home</a>
-<a href="#About" class="about.html">About</a>
-<a href="#Links" class="w3-bar-item w3-button">Links</a>
-<a href="#Resume" class="w3-bar-item w3-button">Resume</a>
-</div>
+<link rel="stylesheet" href="about.css">
 
-</div>
+<h1 style="text-align:left"> About</h1>
+
+</body>
