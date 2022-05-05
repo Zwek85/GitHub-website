@@ -24,13 +24,11 @@ body {
   background-color: black;
   line-height:2;
 }
-. . .
-/* Large profile image */
-div .largeprofile {
-  /* background-image: url('resumecss.jpg'); */
-  background-size: medium;
-  background-position: center;
-  color: red;
 
+/* Large profile image */
+.largeprofile {
+  background-image: url('resumecss.jpg');
+  background-size: cover;
+  background-position: center;
 
 }
