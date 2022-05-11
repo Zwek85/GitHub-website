@@ -2,46 +2,25 @@ body {
  background-image: url(https://images.unsplash.com/photo-1523305846158-488dedcf8629?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80);
  background-attachment: fixed;
   background-position: center;
-
+  font-family: Georgia, serif;
 }
 
-h1 {
-  display: block;
-  font-size: 2em;
-  color: White;
-  margin-top: 0.67em;
-  margin-bottom: 0.67em;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: bold;
-  text-align:left;
+* {
+  box-sizing: border-box;
 }
 
-h2,h3 {
-  display: block;
-  font-size: small;
-  color: White;
-  margin-top: 0.67em;
-  margin-bottom: 0.67em;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: bold;
-  text-align:left;
-}
 
-<hr style="height:4px;border-width:1;color:gray;background-color:gray">
-
-h4 {
-  display: block;
-  font-size: xlarge;
-  color: White;
-  margin-top: 0.67em;
-  margin-bottom: 0.67em;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: bold;
-  text-align:left;
-  text-decoration-line: underline;
-  text-decoration-color: green;
+.column-2 {
+  color: white;
+  float: left;
+  width: 45%;
+  padding: 40px;
+  padding-left:70px;
+  padding-right: 70px;
+  height: 475px;
+  margin:30px;
+  margin-right:30px;
+  margin-bottom: 70px;
+  background-color: black;
+  line-height:2;
 }
-<hr> style="height:4px;border-width:1;color:gray;background-color:gray">
