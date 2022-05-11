@@ -23,8 +23,26 @@ body {
   margin-bottom: 70px;
   background-color: black;
   line-height:2;
+
 }
 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  background: darkblue;
+}
+.fa-linkedin {
+background: #007bb5;
+color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
 /* Large profile image */
 /* .largeprofile { */
   /* background-image: url('resumecss.jpg'); */
