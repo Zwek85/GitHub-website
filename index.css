@@ -13,6 +13,8 @@ body {
   display: flex;
   justify-content: space-between;
   font-family: 'Bebas Neue', cursive;
+  position: fixed;
+  top:0; 
 
 }
 
@@ -24,6 +26,7 @@ body {
   text-decoration: none;
   font-size: 30px;
   font-family: 'Bebas Neue', cursive;
+
 
 
 }
@@ -42,11 +45,13 @@ body {
 .topnav a:hover {
   background-color: #ddd;
   color: black;
+
 }
 
 .topnav a.active {
   background-color: #72768a;
   color: white;
+
 }
 
 
