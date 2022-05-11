@@ -6,43 +6,74 @@ body {
 
 }
 
-h1 {
-  display: block;
-  font-size: 2em;
-  color: White;
-  margin-top: 0.67em;
-  margin-bottom: 0.67em;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: bold;
-  text-align:left;
+.resume {
+    display: grid;
+    width  : 200mm;
+    /* hardcoded purely for codepen example */
+    height: 200mm;
+    /* hardcoded purely for codepen example */
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows   : 1fr 1fr 1fr 1fr;
+    box-shadow           : 0 5px 9px 0 rgba(0, 0, 0, 0.35);
+    grid-gap             : 5px;
+    grid-template-areas  :
+        "name  photo"
+        "work  about"
+        "work  education"
+        "community  skills";
+
 }
 
-h2,h3 {
-  display: block;
-  font-size: small;
-  color: White;
-  margin-top: 0.67em;
-  margin-bottom: 0.67em;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: bold;
-  text-align:left;
+.circle {
+    border       : 1px solid black;
+    height       : 50px;
+    width        : 50px;
+    border-radius: 50%;
 }
 
-<hr style="height:4px;border-width:1;color:gray;background-color:gray">
-
-h4 {
-  display: block;
-  font-size: xlarge;
-  color: White;
-  margin-top: 0.67em;
-  margin-bottom: 0.67em;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: bold;
-  text-align:left;
-  text-decoration-line: underline;
-  text-decoration-color: green;
+.grid-area {
+    padding: 1em 1em 1em 1em;
+    border : 1px black solid;
 }
-<hr> style="height:4px;border-width:1;color:gray;background-color:gray">
+
+.name {
+    grid-area: name;
+    background-color: grey;
+    opacity: 0.6;
+
+}
+
+.photo {
+    grid-area: photo;
+}
+
+.about {
+    grid-area: about;
+}
+
+.work {
+    grid-area: work;
+    background-color: grey;
+    opacity: 0.6;
+}
+
+.skills {
+    grid-area: skills;
+    background-color: grey;
+    opacity: 0.6;
+}
+
+.education {
+    grid-area: education;
+}
+
+.community {
+    grid-area: community;
+}
+
+.wrapper {
+    padding        : 0;
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-evenly;
+}
