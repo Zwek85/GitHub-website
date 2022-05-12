@@ -73,7 +73,8 @@ body {
 }
 
 .rock {
-  display:flex; 
+  display:flex;
+  border-radius: 1rem; 
 }
 
 /* Create two equal columns that float next to each other */
@@ -92,6 +93,7 @@ body {
   margin-bottom: 70px; */
   background-color: black;
   line-height:2;
+  border-radius: 1rem;
 
 
 }
