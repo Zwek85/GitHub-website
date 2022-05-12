@@ -81,14 +81,13 @@ body {
   margin: 5rem;
   background-color: black;
   line-height:2;
-  border-radius: 1rem; 
+  border-radius: 1rem;
+
 }
 .chalew {
   color:white;
 }
-.manny {
-  color:white;
-}
+
 
 a:link {
   text-decoration: none;
