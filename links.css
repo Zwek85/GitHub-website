@@ -78,10 +78,18 @@ body {
   padding-left:70px;
   padding-right: 70px;
   height: 475px;
-  margin:7rem;
-
-  /* margin-right:30px;
-  margin-bottom: 70px; */
+  margin: 5rem;
   background-color: black;
   line-height:2;
+  border-radius: 1rem; 
+}
+.chalew {
+  color:white;
+}
+.manny {
+  color:white;
+}
+
+a:link {
+  text-decoration: none;
 }
