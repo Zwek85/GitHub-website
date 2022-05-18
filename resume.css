@@ -125,13 +125,15 @@ body {
 
 .education {
     grid-area: education;
-    
+
+
 }
 
 .community {
     grid-area: community;
     background-color: grey;
     opacity: 0.6;
+
 }
 
 .wrapper {
