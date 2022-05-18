@@ -119,16 +119,19 @@ body {
 
 .skills {
     grid-area: skills;
-    background-color: grey;
-    opacity: 0.6;
+    /* background-color: grey;
+    opacity: 0.6; */
 }
 
 .education {
     grid-area: education;
+    
 }
 
 .community {
     grid-area: community;
+    background-color: grey;
+    opacity: 0.6;
 }
 
 .wrapper {
@@ -142,6 +145,9 @@ body {
 }
 .education {
   font-style: normal;
-  
+
+}
+.list{
+  font-size: .9em;
 
 }
