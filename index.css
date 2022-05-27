@@ -2,8 +2,11 @@
 body {
   margin: 0;
   font-family: 'Bebas Neue', cursive;
-
+  background-image: url(https://www.muchbetteradventures.com/magazine/content/images/size/w2400/2021/11/GettyImages-1269225044--1-.jpg);
+  background-attachment: fixed;
+   background-position: center;
 }
+
 
 .topnav {
   overflow: hidden;
