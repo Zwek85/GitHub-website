@@ -68,7 +68,10 @@ body {
     min-width:1000px;
     height:auto;
 }
-
+.img {
+  max-width: 100%;
+  display: block;
+}
 
 .column-2 {
   color: white;

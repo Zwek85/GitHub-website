@@ -10,7 +10,10 @@ body {
   box-sizing: border-box;
 }
 
-
+.img {
+  max-width: 100%;
+  display: block;
+}
 
 .topnav {
   overflow: hidden;
@@ -74,7 +77,7 @@ body {
 
 .rock {
   display:flex;
-  border-radius: 1rem; 
+  border-radius: 1rem;
 }
 
 /* Create two equal columns that float next to each other */

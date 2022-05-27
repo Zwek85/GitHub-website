@@ -17,6 +17,11 @@ body {
 
 }
 
+.img {
+  max-width: 100%;
+  display: block;
+}
+
 .topnav a {
   float: left;
   color: #f2f2f2;

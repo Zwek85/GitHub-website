@@ -102,7 +102,10 @@ body {
     opacity: 0.8;
 
 }
-
+.img {
+  max-width: 100%;
+  display: block;
+}
 .photo {
     grid-area: photo;
 }
